@@ -1,16 +1,16 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const RegistrationForm = require('./components/RegistrationForm');
-const Webpage = require('./components/Webpage');
+import RegistrationForm from './components/RegistrationForm';
+import Webpage from './components/Webpage';
 
 ReactDOM.render(
-  (
+  
     <div>
       <RegistrationForm />
       <Webpage />
     </div>
-  ),
+  ,
   document.getElementById('main')
 );
 
